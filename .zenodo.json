@@ -21,6 +21,6 @@
             "orcid": "0000-0002-7563-9269"
         }
     ],
-    "description": "Package to estimate the minimum edge-disjoint edge clique cover (EECC) of a graph",
+    "description": "Package to estimate a minimum edge-disjoint edge clique cover (EECC) of a graph",
     "title": "EECC"
 }
