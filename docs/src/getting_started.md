@@ -55,7 +55,7 @@ m₀ = 4
 nothing  # hide
 ```
 
-To find the EECC, just call the `get_EECC` function:
+To estimate a minimal EECC, just call the `get_EECC` function:
 ```@example gettingstarted
 using Random  # hide
 Random.seed!(666)  # hide
@@ -70,7 +70,7 @@ for c in eecc
 end
 ```
 
-The EECC is not necessarily unique, thus different executions may lead to different EECC. For example, for the same network but with maximum order `m₀ = 3` we may get:
+A graph can admit multiple minimal EECC, thus different executions may lead to different estimations. For example, for the same network but with maximum order `m₀ = 3` we may get:
 ```@example gettingstarted
 m₀ = 3
 Random.seed!(666)  # hide
